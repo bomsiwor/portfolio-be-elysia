@@ -1,15 +1,19 @@
-# Elysia with Bun runtime
+# Bomsiwor Portfolio Backend ft. Elysia & Bun
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+## Start
+
+This is the backend for the Astro portfolio in this same account.
+This project is maintained by **Bomsiwor** with funs and freedom !
+
+There will be lies the experiment about Web (since this app is built with web compatibility).
 
 ## Development
+
 To start the development server run:
+
 ```bash
 bun run dev
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+Open <http://localhost:3000/> with your browser to see the result.
+
