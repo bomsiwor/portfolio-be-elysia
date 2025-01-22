@@ -1,15 +1,21 @@
 {
-  "name": "portfolio-be-elysia",
+  "name": "portfolio-be-bomsiwor",
   "version": "1.0.50",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/swagger": "^1.2.0",
+    "@prisma/client": "^6.2.1",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prisma": "^6.2.1"
   },
-  "module": "src/index.js"
+  "module": "src/index.js",
+  "prisma": {
+    "schema": "db/schema.prisma"
+  }
 }
